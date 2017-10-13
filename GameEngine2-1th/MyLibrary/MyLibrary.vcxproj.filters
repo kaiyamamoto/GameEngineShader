@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{7d212324-5019-47c7-83a9-60c156e5a30c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{ea67d530-5cc4-45da-9969-e7fb884e44d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{0dd25746-7157-488b-ad2f-9e6c1b4088cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{36b7c1d0-647d-496c-83e6-d193a632c7ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3D">
+      <UniqueIdentifier>{34d94ac0-e4b4-4072-92f6-cdb8f9eeb3e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D">
+      <UniqueIdentifier>{ae018e5f-497e-4098-89b2-356eca199f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{dc54cda0-d225-47e9-bf61-6619a5f4241c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{1cca97db-36f7-468b-a6cd-4ca78b47d93b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Collision\Collision.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\KeyboardUtil.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\MouseUtil.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\DebugCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="3D\Obj3D.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="2D\DebugText.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CollisionNode.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Framework.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="3D\LandShapeData.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="3D\LandShape.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\BinaryFile.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\PerformanceCounter.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="2D\Sprite.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="2D\TextureCache.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="2D\SpriteRenderer.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Collision\Collision.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLibrary.h" />
+    <ClInclude Include="Input\KeyboardUtil.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\MouseUtil.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\DebugCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="3D\Obj3D.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="2D\DebugText.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\CollisionNode.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Framework.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="3D\LandShapeData.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="3D\LandShape.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\BinaryFile.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\PerformanceCounter.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="2D\Sprite.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="2D\TextureCache.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="2D\SpriteRenderer.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
