@@ -43,4 +43,7 @@ private:
 
 	// 頂点配列
 	std::vector<DirectX::VertexPositionColorTexture> m_vertices;
+
+	// 汎用描画設定
+	std::unique_ptr<DirectX::CommonStates> m_commonStates;
 };
